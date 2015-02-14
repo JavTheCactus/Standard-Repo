@@ -1,0 +1,189 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+a:link
+{
+    color: #003366;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #473E3F;
+    text-decoration: none;
+}
+
+html
+{
+    background-color: #8EDC9D;
+    font-family: Verdana;
+}
+
+h1
+{
+    color: #473E3F;
+    display: inline-block;
+    margin: auto;
+    font-size: 3em;
+}
+
+h3
+{
+    color: #8EDC9D;
+    font-size: 1em;
+}
+
+table /*sets table to center*/
+{
+    margin: auto;
+}
+
+.ai
+{}
+
+.button /*creates the button object for the divs whose classes are set to "button"*/
+{
+    background-color: #218C8D;
+    border: 8px solid #8EDC9D;
+    display: inline-block;
+    margin: 0;
+    height: 40px;
+}
+
+.button p
+{
+    color: #6CCECB;
+    margin: 12px 0 0 0;
+    text-align: center;
+}
+
+.choice
+{
+    border: 3px solid #F9E559;
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.choiceArea
+{
+    background-color: #F9E559;
+    height: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    text-align: center;
+    width: 350px;
+}
+
+.column
+{
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    width: 52px;
+}
+
+.theColumn
+{
+    display: inline-block;
+}
+
+.theColumn .button /*edits the width of the buttons (presumably within the container)*/
+{
+    width: 40px;
+}
+
+.details
+{
+    font-size: 1em;
+    text-align: center;
+}
+
+.display
+{
+    font-family: Verdana;
+    margin: 3px 0 3px 0;
+}
+
+.theDisplay
+{
+    background-color: #8EDC9D;
+    margin-top: 80px;
+    margin-left: 20px;
+    height: 110px;
+    width: 305px;
+}
+
+.theDisplay .token
+{
+    background-color: #8EDC9D;
+    border: 4px solid #8EDC9D;
+    margin-bottom: 10px;
+}
+
+.theGame
+{
+    border: 4px solid;
+    border-color: #218C8D;
+}
+
+
+.theGame .token
+{
+    position: absolute;
+}
+
+.human
+{}
+
+.reset
+{
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.player1
+{
+    background-color: #750A7A;
+    border: 3px solid #750A7A;
+}
+
+.player2
+{
+    background-color: #EF7126;
+    border: 3px solid #EF7126;
+}
+
+.token
+{
+    border-radius: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 40px;
+}
+
+.turnai
+{
+    display: none;
+    margin: auto;
+    width: 100px;
+}
+
+.notif
+{
+    display: none;
+}
