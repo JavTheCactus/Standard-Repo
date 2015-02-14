@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Connect Four!</title>
+		<script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <link rel = "stylesheet" href = "application.css" />
+        <script src = 'logic.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	</head>
+	<body>
+        <h1>Connect Four!</h1>
+
+        <br><br><br><br>
+
+        <table>
+            <tr>
+                <td>
+                    <div class = "theGame">
+                        <div class="theColumn">
+                            <div class = "column"></div>
+                            <div class = "button" id = "0"></div>
+                        </div>
+
+                        <div class = "theColumn">
+                            <div class = "column"></div>
+                            <div class = "button" id = "1"></div>
+                        </div>
+
+                        <div class = "theColumn">
+                            <div class = "column"></div>
+                            <div class = "button" id = "2"></div>
+                        </div>
+
+                        <div class = "theColumn">
+                            <div class = "column"></div>
+                            <div class = "button" id = "3"></div>
+                        </div>
+
+                        <div class = "theColumn">
+                            <div class = "column"></div>
+                            <div class = "button" id = "4"></div>
+                        </div>
+
+                        <div class = "theColumn">
+                            <div class = "column"></div>
+                            <div class = "button" id = "5"></div>
+                        </div>
+
+                        <div class = "theColumn">
+                            <div class = "column"></div>
+                            <div class = "button" id = "6"></div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class = "choiceArea">
+                        <br><br>
+                        <h2>Choose Your Opponent!</h2>
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class = "button choice human">
+                                        <p>Human</p>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class = "button choice ai">
+                                        <p>AI</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div class = "theDisplay">
+                            <br>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <h2 class = "display notif"></h2>
+                                    </td>
+
+                                    <td>
+                                        <div><div class = "token"></div></div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <div class = "button reset">
+                         <p>Reset</p>
+                    </div>
+                </td>
+
+                <td>
+                    <div class = "button turnai">
+                        <p>AI Turn</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <div class = "details">
+            <a href = "http://www.codecademy.com/forum_questions/5191f41243ce5cbee1001d63" target = "_blank">*Code was based on an online source. (link)</a>
+        </div>
+	</body>
+</html>
